@@ -70,7 +70,7 @@ WEB_SERVER = os.getenv('WDB_WEB_SERVER')
 # and port
 WEB_PORT = int(os.getenv('WDB_WEB_PORT', 0))
 
-WDB_NO_BROWSER_AUTO_OPEN = bool(os.getenv('WDB_NO_BROWSER_AUTO_OPEN', False))
+WDB_NO_BROWSER_AUTO_OPEN = bool(os.getenv('WDB_NO_BROWSER_AUTO_OPEN', True))
 log = logger('wdb')
 trace_log = logging.getLogger('wdb.trace')
 
